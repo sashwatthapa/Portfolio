@@ -1,3 +1,16 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
+
+.top-container {
+  position: relative;
+}
+
+.nav {
+  font-family: Inter;
+  font-weight: 400;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
 .profile {
   height: 10rem;
   width: 10rem;
@@ -5,5 +18,10 @@
 }
 
 .education {
-    text-align: center;
+  text-align: center;
+  
+}
+
+body {
+  background: linear-gradient(122deg, #a2deeb 0.77%, #fff 62.04%);
 }
