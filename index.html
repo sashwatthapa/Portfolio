@@ -11,17 +11,16 @@
   <body>
     <div class="top-container">
       <img class="scene" src="assets/images/scenery.png" alt="backgroud" />
-        <div class="nav">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Skills</a>
-          <a href="#">Contact</a>
-        </div>
-        <h1 class="intro">
-          Hi, My Name is Sashwat <br />
-          I am a <span class="dev">Developer</span>
-        </h1>
-      </div>
+      <!-- <div class="nav">
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact</a>
+        </div> -->
+      <h1 class="intro">
+        Hi, My Name is Sashwat <br />
+        I am a <span class="dev">Developer</span>
+      </h1>
     </div>
     <div class="middle-container">
       <h2>About</h2>
@@ -84,6 +83,7 @@
           </td>
         </tr>
       </table>
+      <hr />
       <h2>Skills</h2>
       <p>
         <b>Programming Languages:</b>Programming Languages: HTML, CSS,
@@ -93,6 +93,7 @@
         <b>Databases:</b> SQL, MongoDB<br />
         <b>UI/UX Design:</b> Figma
       </p>
+      <hr />
       <h2>Projects</h2>
       <h3>Face Recognition Attendance System</h3>
       <ul>
@@ -120,7 +121,26 @@
           Worked with hardware component to make the system more efficient.
         </li>
       </ul>
+      <hr />
       <h2>Contact</h2>
+      <p>Let's get in touch</p>
+      <div class="contact">
+        <input type="text" name="Name" class="input-name" placeholder="Name" />
+        <input
+          type="email"
+          name="Email"
+          class="input-email"
+          placeholder="Email"
+        />
+        <textarea
+          name="Message"
+          class="input-message"
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button class="Send" type="submit">Send</button>
+      </div>
     </div>
   </body>
 </html>
